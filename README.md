@@ -15,6 +15,7 @@ This is the place to put all the toolkits I have learnt. It will including but n
   * Simple practice
 * R
 * Tableau
+* Regular Expression
 
 I would love to accept pointers from others, and are open for any suggestions. Please feel free to contact me at rachelfu63@gmail.com if you have any comments or advice.
 
