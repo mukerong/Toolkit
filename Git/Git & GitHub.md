@@ -11,7 +11,7 @@
 
 ---
 
-## [Git](#git)
+## [Git]
 
 ### Documentation [git-documentation]
 
