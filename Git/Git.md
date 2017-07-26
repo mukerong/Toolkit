@@ -6,7 +6,7 @@
 
 * [Documentation](#documentation)
 * [First-time configuration](#first-time-configuration)
-* [Common Command](#common-command]
+* [Common Command](#common-command)
 
 ---
 
