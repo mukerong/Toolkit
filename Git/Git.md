@@ -5,7 +5,8 @@
 ## Table of Contents 
 
 * [Documentation](#documentation)
-* [First-time configuration](#first-time configuration)
+* [First-time configuration](#first-time-configuration)
+* [Common Command](#common-command]
 
 ---
 
