@@ -4,14 +4,14 @@
 
 ## Table of Contents 
 
-* [Git][git]
+* [Git](#git)
 	* [Documentation][git-documentation]
 	* [First-time configuration][git-config]
 * GitHub
 
 ---
 
-## Git [git]
+## [Git](#git)
 
 ### Documentation [git-documentation]
 
