@@ -1,23 +1,20 @@
-# Git & GitHub
+# Git
 
 ---
 
 ## Table of Contents 
 
-* [Git](#git)
-	* [Documentation][git-documentation]
-	* [First-time configuration][git-config]
-* GitHub
+* [Documentation](#Documentation)
+* [First-time configuration](#First-time configuration)
 
 ---
 
-## [Git]
 
-### Documentation [git-documentation]
+### Documentation
 
 [Git Documentation](https://git-scm.com/documentation)
 
-### First-time configuration [git-config]
+### First-time configuration
 
 ```Bash
 git config --global user.name "Full Name"
