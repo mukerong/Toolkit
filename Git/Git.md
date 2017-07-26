@@ -10,11 +10,11 @@
 ---
 
 
-### [Documentation](#Documentation)
+## Documentation
 
 [Git Documentation](https://git-scm.com/documentation)
 
-### First-time configuration
+## First-time configuration
 
 ```Bash
 git config --global user.name "Full Name"
