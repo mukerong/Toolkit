@@ -4,8 +4,8 @@
 
 ## Table of Contents 
 
-* [Documentation] (#Documentation)
-* [First-time configuration] (#First-time configuration)
+* [Documentation](#Documentation)
+* [First-time configuration](#First-time configuration)
 
 ---
 
