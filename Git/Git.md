@@ -1,4 +1,7 @@
+
+
 # Git
+
 
 ---
 
@@ -7,6 +10,7 @@
 * [First-time configuration](#first-time-configuration)
 * [Common Command](#common-command)
 * [Reference](#reference)
+
 
 ---
 
