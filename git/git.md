@@ -1,6 +1,5 @@
 # Git
 
-
 ---
 
 ## Table of Contents
@@ -142,6 +141,14 @@ git log --decorate
 ```
 
 It will display the tag information. In the 2.13 update to Git, this flag is automatically enabled.
+
+```Bash
+git log --graph
+```
+
+```Bash
+git log --all
+```
 
 ### Show one commit
 
