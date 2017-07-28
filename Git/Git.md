@@ -1,5 +1,3 @@
-
-
 # Git
 
 
@@ -266,6 +264,41 @@ It is recommended because it includes extra information:
 git tag -d tag-name SHA
 ```
 
+### Interact with Git's branches
+
+```Bash
+git branch
+```
+
+It can be used to:
+
+* list all branch names
+* create new branches
+* delete branches
+
+```Bash
+git checkout repo-name
+```
+
+It will:
+
+* remove all files and directories from the Working Directory that Git is tracking
+	* Nothing is lost since files that Git tracks are stored in the repository
+* go into the repository and pull out all of the files and directories of the commit that the branch points to
+
+#### Flag of git branch
+
+```Bash
+git branch -d repo-name
+```
+
+It will delete the provided branch. You can not delete the branch you are currently on.
+
+```Bash
+git branch -D repo-name
+```
+
+It will force delete a repo when there is unique commits within this repo.
 
 ### Reference
 
@@ -297,3 +330,6 @@ git tag -d tag-name SHA
 * [gitignore.io](https://www.gitignore.io)
 * [Git Basics - Tagging ](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
 * [Git Tag](https://git-scm.com/docs/git-tag)
+* [Git Branching - Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+* [Learn Git Branching](http://learngitbranching.js.org)
+* [Git Branching Tutorial](https://www.atlassian.com/git/tutorials/using-branches)
