@@ -139,6 +139,12 @@ It will:
 * start at that provided commit
 * also show all of the commits that were made *prior* to the supplied SHA
 
+```Bash
+git log --decorate
+```
+
+It will display the tag information. In the 2.13 update to Git, this flag is automatically enabled.
+
 ### Show one commit
 
 ```Bash
@@ -237,7 +243,7 @@ It will displays
 ### Tagging
 
 ```Bash
-git tag v1.0
+git tag v1.0 SHA
 ```
 
 It creates a lightweight tag.
@@ -245,7 +251,7 @@ It creates a lightweight tag.
 #### Flags of git tag
 
 ```Bash
-git tag -a name
+git tag -a name SHA
 ```
 
 It creates an annotated flag.
@@ -255,6 +261,10 @@ It is recommended because it includes extra information:
 * the person who made the tag
 * the date the tag was made
 * a message for the tag
+
+```Bash
+git tag -d tag-name SHA
+```
 
 
 ### Reference
@@ -285,3 +295,5 @@ It is recommended because it includes extra information:
 * [gitignore from the Git Docs](https://git-scm.com/docs/gitignore#_pattern_format)
 * [Ignoring files from the GitHub Docs](https://help.github.com/articles/ignoring-files/)
 * [gitignore.io](https://www.gitignore.io)
+* [Git Basics - Tagging ](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+* [Git Tag](https://git-scm.com/docs/git-tag)
