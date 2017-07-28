@@ -230,6 +230,27 @@ It will displays
 * the location of the lines that have been added/removed
 * the actual changes that have been made
 
+### Tagging
+
+```Bash
+git tag v1.0
+```
+
+It creates a lightweight tag.
+
+#### Flags of git tag
+
+```Bash
+git tag -a name
+```
+
+It creates an annotated flag.
+
+It is recommended because it includes extra information:
+
+* the person who made the tag
+* the date the tag was made
+* a message for the tag
 
 
 ### Reference
