@@ -300,6 +300,36 @@ git branch -D repo-name
 
 It will force delete a repo when there is unique commits within this repo.
 
+### Merge
+
+```Bash
+git merge <name-of-branch-to-marge-in>
+```
+
+It will:
+
+* look at the branches that is going to merge
+* look back along the branch's history to find a single commit that both branches have in their commit history
+* combine the lines of code that were changed on the separate branches together
+* make a commit to record the merge
+
+Two types of Merge:
+
+* Fast-forward merge - the branch being merged in must be ahead of the checked out branch. The checked out branch's pointer will just be moved forward to point to the same commit as the other branch
+* the regular type of merge
+    * two divergent branches are combined
+    * a merge commit is created
+
+If you make a merge on the wrong branch, use the following command to undo the merge:
+
+```Bash
+git reset --hard HEAD^
+```
+
+`^` means "Relative Commit Reference"
+
+[Reference](#Reference)
+
 ### Reference
 
 * [Git Documentation](https://git-scm.com/documentation)
@@ -333,3 +363,8 @@ It will force delete a repo when there is unique commits within this repo.
 * [Git Branching - Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 * [Learn Git Branching](http://learngitbranching.js.org)
 * [Git Branching Tutorial](https://www.atlassian.com/git/tutorials/using-branches)
+* [Basic Merging from Git Book](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#Basic-Merging)
+* [git-merge from Git Docs](https://git-scm.com/docs/git-merge)
+* [git merge from Atlassian blog](https://www.atlassian.com/git/tutorials/git-merge)
+* []()
+* []()
