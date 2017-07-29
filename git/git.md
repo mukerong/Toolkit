@@ -372,6 +372,18 @@ It will:
 * undo the changes that were made by the provided commit
 * creates a new commit to record the changes
 
+[Reference](#Reference)
+
+### Reset commits
+
+### Get the history back
+
+```Bash
+git reflog
+```
+
+[Reference](#Reference)
+
 ### Reference
 
 * [Git Documentation](https://git-scm.com/documentation)
@@ -415,4 +427,6 @@ It will:
 * []()
 * []()
 * []()
-* []()
+* [git-reflog](https://git-scm.com/docs/git-reflog)
+* [Rewriting History](https://www.atlassian.com/git/tutorials/rewriting-history)
+* [reflog, your safety net](http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html)
