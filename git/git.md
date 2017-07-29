@@ -146,9 +146,13 @@ It will display the tag information. In the 2.13 update to Git, this flag is aut
 git log --graph
 ```
 
+It adds the bullets and lines to the leftmost part of the output. It shows the actual branching that is happening.
+
 ```Bash
 git log --all
 ```
+
+It displays all of the branches in the repository.
 
 ### Show one commit
 
@@ -283,15 +287,6 @@ It can be used to:
 * create new branches
 * delete branches
 
-```Bash
-git checkout repo-name
-```
-
-It will:
-
-* remove all files and directories from the Working Directory that Git is tracking
-	* Nothing is lost since files that Git tracks are stored in the repository
-* go into the repository and pull out all of the files and directories of the commit that the branch points to
 
 #### Flag of git branch
 
@@ -306,6 +301,26 @@ git branch -D repo-name
 ```
 
 It will force delete a repo when there is unique commits within this repo.
+
+### Switch branches
+
+```Bash
+git checkout repo-name
+```
+
+It will:
+
+* remove all files and directories from the Working Directory that Git is tracking
+	* Nothing is lost since files that Git tracks are stored in the repository
+* go into the repository and pull out all of the files and directories of the commit that the branch points to
+
+#### Flag of git checkout
+
+```Bash
+git checkout -b <name-of-new-branch> <name-of-old-branch>
+```
+
+It will create a new branch and switch to it.
 
 ### Merge
 
