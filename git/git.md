@@ -376,6 +376,43 @@ It will:
 
 ### Reset commits
 
+```Bash
+git reset <reference-to-commit>
+```
+
+It will
+
+* move the HEAD and current branch pointer to the referenced commit
+* erase commits
+* move committed changes to the staging index
+* unstage committed changes
+
+Since it will erase commits from the current branch. You can create a backup branch on the current commit if you want to follow along with all the resetting stuff that is coming up.
+
+```Bash
+git branch backup
+```
+
+#### Flags of git reset
+
+```BASH
+git reset --mixed
+```
+
+This is the default setting. It will move the commit to the Working Directory.
+
+```BASH
+git reset --soft
+```
+
+It will move the commit directly to the Staging Index.
+
+```BASH
+git reset --hard
+```
+
+It will take the changes in given commit and erases them.
+
 ### Get the history back
 
 ```Bash
@@ -424,9 +461,9 @@ git reflog
 * [How Conflicts Are Presented from the Git docs](https://git-scm.com/docs/git-merge#_how_conflicts_are_presented)
 * [git-revert from Git Docs](https://git-scm.com/docs/git-revert)
 * [git revert Atlassian tutorial](https://www.atlassian.com/git/tutorials/undoing-changes)
-* []()
-* []()
-* []()
+* [git-reset from Git docs](https://git-scm.com/docs/git-reset)
+* [Reset Demystified from Git Blog](https://git-scm.com/blog)
+* [Ancestry References from Git Book](https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection#Ancestry-References)
 * [git-reflog](https://git-scm.com/docs/git-reflog)
 * [Rewriting History](https://www.atlassian.com/git/tutorials/rewriting-history)
 * [reflog, your safety net](http://gitready.com/intermediate/2009/02/09/reflog-your-safety-net.html)
