@@ -361,6 +361,16 @@ git reset --hard HEAD^
 
 [Reference](#Reference)
 
+### Revert a commit
+
+```Bash
+git revert <SHA>
+```
+
+It will:
+
+* undo the changes that were made by the provided commit
+* creates a new commit to record the changes
 
 ### Reference
 
@@ -400,3 +410,9 @@ git reset --hard HEAD^
 * [git merge from Atlassian blog](https://www.atlassian.com/git/tutorials/git-merge)
 * [Basic Merge Conflicts from the Git book](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#Basic-Merge-Conflicts)
 * [How Conflicts Are Presented from the Git docs](https://git-scm.com/docs/git-merge#_how_conflicts_are_presented)
+* [git-revert from Git Docs](https://git-scm.com/docs/git-revert)
+* [git revert Atlassian tutorial](https://www.atlassian.com/git/tutorials/undoing-changes)
+* []()
+* []()
+* []()
+* []()
