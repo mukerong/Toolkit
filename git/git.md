@@ -226,8 +226,6 @@ Each commit has a single focus, one aspect of the project. Finish this phrase fo
 * use the work *and*
 	* using *and* might mean the commit is doing too many changes - break the changes into separate commits
 
-[Reference](#reference)
-
 #### Flags of git commit
 
 ```Bash
@@ -236,6 +234,17 @@ git commit -m "short commit message"
 
 It cannot provide a description, only the message.
 
+```Bash
+git commit --amend
+```
+
+Two usage:
+
+* change the last commit message when Working Directory is clean
+* add forgotten files to commit
+    * edit the file, save the file, stage the file, and run `git commit --amend`
+
+[Reference](#reference)
 
 ### Show non-committed changes
 
