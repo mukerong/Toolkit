@@ -1,13 +1,33 @@
 # Git
 
----
 
 ## Table of Contents
-
-* [First-time configuration](#first-time-configuration)
-* [Common Command](#common-command)
-* [Reference](#reference)
-
+- [First-time configuration](#first-time-configuration)
+- [Relative Commit References](#relative-commit-references)
+- [Common Command](#common-command)
+	- [Create a repo from scratch](#create-a-repo-from-scratch)
+	- [Clone an existing repo](#clone-an-existing-repo)
+	- [Display the current status of a repo](#display-the-current-status-of-a-repo)
+	- [Display all the commits of a repo](#display-all-the-commits-of-a-repo)
+		- [Flags of git log](#flags-of-git-log)
+	- [Show one commit](#show-one-commit)
+	- [From Working Directory to Staging Index and vice versa](#from-working-directory-to-staging-index-and-vice-versa)
+		- [Ignore files](#ignore-files)
+	- [Make a Commit](#make-a-commit)
+		- [Flags of git commit](#flags-of-git-commit)
+	- [Show non-committed changes](#show-non-committed-changes)
+	- [Tagging](#tagging)
+		- [Flags of git tag](#flags-of-git-tag)
+	- [Interact with Git's branches](#interact-with-gits-branches)
+		- [Flag of git branch](#flag-of-git-branch)
+	- [Switch branches](#switch-branches)
+		- [Flag of git checkout](#flag-of-git-checkout)
+	- [Merge](#merge)
+	- [Revert a commit](#revert-a-commit)
+	- [Reset commits](#reset-commits)
+		- [Flags of git reset](#flags-of-git-reset)
+	- [Get the history back](#get-the-history-back)
+- [Reference](#reference)
 
 ---
 
@@ -223,7 +243,7 @@ Wildcard to use
 * \* - matches 0 or more characters
 * ? - matches 1 character
 * [abc] - matches a, b, or c
-* \*\* - matches nested directories - a/**/z matches
+* \*\* - matches nested directories - a/\*\*/z matches
 	* a/z
 	* a/b/z
 	* a/b/c/z
