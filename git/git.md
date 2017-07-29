@@ -337,6 +337,7 @@ git reset --hard HEAD^
 
 [Reference](#Reference)
 
+
 ### Reference
 
 * [Git Documentation](https://git-scm.com/documentation)
@@ -373,5 +374,5 @@ git reset --hard HEAD^
 * [Basic Merging from Git Book](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#Basic-Merging)
 * [git-merge from Git Docs](https://git-scm.com/docs/git-merge)
 * [git merge from Atlassian blog](https://www.atlassian.com/git/tutorials/git-merge)
-* []()
-* []()
+* [Basic Merge Conflicts from the Git book](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#Basic-Merge-Conflicts)
+* [How Conflicts Are Presented from the Git docs](https://git-scm.com/docs/git-merge#_how_conflicts_are_presented)
