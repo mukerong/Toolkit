@@ -1,20 +1,34 @@
-## Dictionary
+# Dictionary
 
 ---
 
-### dict.keys()
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Dictionary](#dictionary)
+	- [dict.keys()](#dictkeys)
+	- [dict.values()](#dictvalues)
+	- [dict.items()](#dictitems)
+	- [dict.get()](#dictget)
+	- [defaultdict](#defaultdict)
+	- [append multiple values for one key](#append-multiple-values-for-one-key)
+
+<!-- /TOC -->
+
+---
+
+## dict.keys()
 
 * return a list of all keys
 * dict_keys type
 * use list() to transfer to a list
 
-### dict.values()
+## dict.values()
 
 * return a list of all values
 * dict_values type
 * use list() to transfer to a list
 
-### dict.items()
+## dict.items()
 
 return a list of tuples of keys and values
 
@@ -23,9 +37,9 @@ for key, value in dict.items():
     pass
 ```
 
-### dict.get()
+## dict.get()
 
-### defaultdict
+## defaultdict
 
 Here is [some examples](https://www.accelebrate.com/blog/using-defaultdict-python/)
 
@@ -34,7 +48,7 @@ from collections import defaultdict
 mydict = defaultdict(function)
 ```
 
-### append multiple values for one key
+## append multiple values for one key
 
 [Reference](http://stackoverflow.com/questions/3199171/append-multiple-values-for-one-key-in-python-dictionary)
 
