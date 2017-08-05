@@ -27,6 +27,7 @@
 	- [Reset commits](#reset-commits)
 		- [Flags of git reset](#flags-of-git-reset)
 	- [Get the history back](#get-the-history-back)
+    - [Remove a file from every commit](#remove-a-file-from-every-commit)
 - [Reference](#reference)
 
 ---
@@ -465,6 +466,16 @@ It will take the changes in given commit and erases them.
 ```Bash
 git reflog
 ```
+
+### Remove a file from every commit
+
+Often, you may use `git add .` to stage all files. More likely than not, you will stage an inappropriate file, like files more than 100 MB or files with password. These files will have problem push to GitHub.
+
+```Bush
+git filter-branch --tree-filter 'rm -f file-path' HEAD
+```
+
+The `tree-filter` option runs the specified command after each checkout of the project and then recommits the results. In this case, you will remove the given file from every snapshot, whether it exists or not.
 
 [Reference](#Reference)
 
