@@ -1231,7 +1231,7 @@
     </dashboard>
   </dashboards>
   <windows source-height='30'>
-    <window class='worksheet' name='Map'>
+    <window class='worksheet' maximized='true' name='Map'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -1368,7 +1368,7 @@
         </highlight>
       </viewpoint>
     </window>
-    <window class='worksheet' maximized='true' name='Job Classification'>
+    <window class='worksheet' name='Job Classification'>
       <cards>
         <edge name='left'>
           <strip size='160'>
